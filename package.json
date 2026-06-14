@@ -4,14 +4,22 @@
   "description": "OMD 核心解析引擎 — 智慧生而共通。解析、序列化、提纲提取、格式校验。",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest",
     "bench": "tsx benchmarks/parse.ts",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["omd", "markdown", "office", "ai", "knowledge"],
+  "keywords": [
+    "omd",
+    "markdown",
+    "office",
+    "ai",
+    "knowledge"
+  ],
   "author": "jetice85-rgb",
   "license": "MIT",
   "repository": {
@@ -19,6 +27,8 @@
     "url": "https://github.com/jetice85-rgb/omd-core.git"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.9.3",
     "typescript": "^5.0.0",
     "vitest": "^2.0.0"
   },

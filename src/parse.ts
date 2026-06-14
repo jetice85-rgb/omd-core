@@ -42,7 +42,7 @@ export function parse(omdString: string): OMDDocument {
   }
 
   // 2. 提取尾部 <!--OMD-->（呈现元数据）
-  const renderMatch = rest.match(/<!--OMD\n([\s\S]*?)\n-->/);
+  const renderMatch = rest.match(/<!--OMD\n?([\s\S]*?)\n?-->/);
   let render: RenderConfig | undefined;
   let body = rest;
 
