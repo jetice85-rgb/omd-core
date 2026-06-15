@@ -8,6 +8,8 @@ export { stringify } from './stringify.js';
 export { getOutline, outlineToText } from './outline.js';
 export { validate } from './validate.js';
 export { toDocx, omdToDocx } from './convert.js';
+export { toXlsx, omdToXlsx } from './convert-xlsx.js';
+export { toPptx, omdToPptx } from './convert-pptx.js';
 export type {
   OMDDocument,
   OMDBody,
