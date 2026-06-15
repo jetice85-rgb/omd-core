@@ -7,6 +7,7 @@ export { parse, fromMarkdown, toMarkdown } from './parse.js';
 export { stringify } from './stringify.js';
 export { getOutline, outlineToText } from './outline.js';
 export { validate } from './validate.js';
+export { toDocx, omdToDocx } from './convert.js';
 export type {
   OMDDocument,
   OMDBody,
